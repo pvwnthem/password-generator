@@ -69,7 +69,7 @@ label.pack(pady=5, padx=10)
 lengthSlider = customtkinter.CTkSlider(master=frame, number_of_steps=49, from_=1, to=50, command=slider_event)
 lengthSlider.pack(pady=5, padx=10)
 
-password_text = customtkinter.CTkLabel(master=frame, font=('Roboto', 12), text="zfzfs")
+password_text = customtkinter.CTkLabel(master=frame, font=('Roboto', 12), text="Generate A Password To Get Started")
 password_text.pack(pady=5, padx=10)
 
 
